@@ -1,4 +1,4 @@
-#Base Apparel coming soon page
+# Base Apparel coming soon page
 
 This a code challenge in HTML, CSS and Javascript offered by Frontend Mentor https://www.frontendmentor.io/
 

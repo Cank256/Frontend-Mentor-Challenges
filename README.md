@@ -1,5 +1,5 @@
-#Frontend Mentor Challenges
+# Frontend Mentor Challenges
 
-##Preview of finished challenges
+## Preview of finished challenges
 
 1. Base Apparel Coming Soon Page - 
