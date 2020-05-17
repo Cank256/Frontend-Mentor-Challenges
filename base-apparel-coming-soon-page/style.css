@@ -1,0 +1,369 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,200;0,300;0,600;1,400&display=swap');
+
+:root {
+    --desaturated-red: hsl(0, 36%, 70%);
+    --soft-red: hsl(0, 93%, 68%);
+    --dark-grayish-red: hsl(0, 6%, 24%);
+}
+
+body {
+    max-width: 100%;
+    max-height:100%;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    background: url("/images/bg-pattern-desktop.svg");
+}
+
+.logo {
+    margin: 25px 30px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 0;
+}
+
+.right-part img {
+    width: 100vw;
+    max-width: 100%;
+    height: auto;
+}
+
+.left-part {
+    margin: 15px;
+    padding: 10px 10px;
+    text-align: center;
+}
+
+.first-line {
+    font-weight: lighter 100;
+    font-size: 1.7em;
+    letter-spacing: 8px;
+    color: var(--desaturated-red);
+    text-transform: uppercase;
+    margin-bottom: 0;
+    margin-top: 36px;
+}
+
+.heading {
+    font-size: 1.7em;
+    margin-top: 0;
+    margin-bottom: 0;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+}
+
+.other-text {
+    font-size: .5em;
+    color: var(--desaturated-red);
+}
+
+.form-component {
+    margin-top: 30px;
+}
+
+.form-component input {
+    border: solid 1px var(--desaturated-red);
+    width: 250px;
+    height: 30px;
+    border-radius: 30px;
+    padding-left: 18px;
+    font-size: .43em;
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: white;
+    margin-bottom: 0;
+}
+
+#error-image {
+    position: absolute;
+    margin-top: 12px;
+    margin-left: -70px;
+    width: 15px;
+    height: 15px;
+}
+
+#submit {
+    position: absolute;
+    border: none;
+    height: 33px;
+    width: 45px;
+    margin: 3.7px 0 0 -40px;
+    border-radius: 30px;
+    cursor: pointer;
+    background: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+}
+
+#submit:hover {
+    background: linear-gradient(135deg, hsl(0, 80%, 100%), hsl(0, 80%, 88%));
+}
+
+.error-text {
+    display: inherit;
+    position: inherit;
+    margin: .4rem 5.5rem 0 0;
+    font-weight: 600;
+    font-size: .4em;
+    color: var(--soft-red);
+}
+
+.hero-desktop {
+    display: none;
+}
+
+/* @media (min-width: 768px) and (max-width: 1020px) {
+    body {
+        background: url("/images/bg-pattern-desktop.svg") no-repeat;
+    }
+
+    .container {
+        display: flex;
+        position: relative;
+        flex-direction: row;
+    }
+
+    .logo {
+        padding: .7rem 1rem 0 1.9rem;
+    }
+
+    .logo img {
+        width: 3em;
+        height: auto;
+    }
+    
+    .first-line {
+        font-size: 1.6em;
+        margin: 1.4rem 0 0 1.9rem;
+        padding: 0;
+        text-align: left;
+    }
+
+    .heading {
+        text-align: left;
+        margin: .2rem 1.9rem;
+        font-size: 1.6em;
+        line-height: 1.1em;
+    }
+
+    .other-text {
+        margin: 9px 2.5rem 0 2.2rem;
+        font-size: .35em;
+        text-align: left;
+        line-height: 13px;
+    }
+
+    .form-component {
+        margin: 2px 96px 0 0;
+    }
+
+    .form-component input {
+        width: 180px;
+        height: 19px;
+        font-size: .3em;
+        padding-left: 10px;
+    }
+
+    #error-image {
+        margin-top: 16px;
+        margin-left: -35px;
+        width: 9px;
+        height: 9px;
+    }
+
+    #submit {
+        height: 23px;
+        width: 35px;
+        margin: .6rem 0 0 -20px;
+    }
+
+    #submit img {
+        height: 10px;
+    }
+
+    .error-text {
+        padding: 3px 0 0 17px;
+        display: inherit;
+        position: relative;
+        font-size: .26em;
+    }
+
+    .right-part {
+        margin: -14.9vh 0 0 0;
+    }
+
+    .hero-mobile {
+        display: none;
+    }
+
+    .hero-desktop {
+        display: block;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1430px){
+    .container {
+        display: flex;
+        position: relative;
+        flex-direction: row;
+    }
+
+    .logo {
+        padding: 2rem 0 5rem 5rem;
+    }
+
+    .logo img {
+        width: 6em;
+        height: auto;
+    }
+
+    .left-part {
+        margin: 0 5rem 0 2rem;
+    }
+
+    .first-line {
+        font-size: 2.7em;
+    }
+
+    .heading {
+        font-size: 2.7em;
+    }
+
+    .other-text {
+        margin-left: 3.6rem;
+        font-size: .65em;
+    }
+
+    .form-component input {
+        margin: 20px 0 0 26px;
+        width: 370px;
+        height: 40px;
+        font-size: .7em;
+        padding-left: 22px;
+    }
+
+    #error-image {
+        margin-top: 32px;
+        margin-left: -75px;
+        width: 17px;
+        height: 17px;
+    }
+
+    #submit {
+        height: 42px;
+        width: 70px;
+        margin: 1.3rem 0 0 -50px;
+    }
+
+    #submit img {
+        height: 25px;
+        align-content: center;
+    }
+
+    .error-text {
+        padding: 8px 150px 0 0;
+        display: inherit;
+        position: relative;
+        font-size: .45em;
+    }
+
+    .right-part {
+        margin: -26vh 0 0 0;
+    }
+    
+    .hero-mobile {
+        display: none;
+    }
+
+    .hero-desktop {
+        display: block;
+        max-width: auto;
+        max-height: 100vh;
+        margin: 0;
+    }
+} */
+
+@media (min-width: 1440px) {
+    body {
+        background: url("/images/bg-pattern-desktop.svg") no-repeat;
+    }
+
+    .container {
+        display: flex;
+        position: relative;
+        flex-direction: row;
+    }
+
+    .logo {
+        margin: 0;
+        padding: 3rem 6rem 3.2rem 6rem;
+    }
+
+    .left-part {
+        text-align: left;
+        margin-top: 20px;
+        padding: 0 0 0 1.8rem;
+    }
+
+    .first-line {
+        font-size: 2.7em;
+        padding-left: 3rem;
+    }
+
+    .heading {
+        padding-left: 3rem;
+        margin-top: 7px;
+        line-height: 1.2em;
+        font-size: 2.7em;
+    }
+
+    .other-text {
+        line-height: 1.6rem;
+        margin: 0;
+        padding: 2rem 6rem 0 3rem;
+        font-size: 20px;
+    }
+
+    .form-component {
+        padding-left: 3rem;
+    }
+
+    .form-component input {
+        margin: 5px 0 0 0;
+        width: 370px;
+        height: 40px;
+        font-size: .6em;
+        padding-left: 27px;
+    }
+
+    #submit {
+        margin-top: .38rem;
+        width: 65px;
+        height: 43px;
+    }
+
+    #error-image {
+        margin-top: 20px;
+    }
+
+    .error-text {
+        padding: 4px 0 0 1em;
+        display: inherit;
+        position: relative;
+        font-size: .5em;
+        margin-bottom: 0;
+    }
+
+    .right-part {
+        margin: -15.5vh 0 0 0;
+    }
+
+    .hero-mobile {
+        display: none;
+    }
+
+    .hero-desktop {
+        display: block;
+    }
+}
