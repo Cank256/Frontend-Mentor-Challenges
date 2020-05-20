@@ -1,5 +1,3 @@
 # Frontend Mentor Challenges
 
-## Preview of finished challenges
-
-1. Base Apparel Coming Soon Page - 
+You can preview all the finished challenges [Here](https://cank-frontend.netlify.app/) 
