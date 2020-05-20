@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+* {
+    --Red: hsl(0, 78%, 62%);
+    --Cyan: hsl(180, 62%, 55%);
+    --Orange: hsl(34, 97%, 64%);
+    --Blue: hsl(212, 86%, 64%);
+
+    --Very-Dark-Blue: hsl(234, 12%, 34%);
+    --Grayish-Blue: hsl(229, 6%, 66%);
+    --Very-Light-Gray: hsl(0, 0%, 98%);
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    background-color: var(--Very-Light-Gray);
+}
+
+.container {
+    padding: 0 2em;
+}
+
+.md-header {
+    text-align: center;
+    max-width: 54em; /* 540px */
+    margin: 5em auto 4em auto;
+    color: var(--Very-Dark-Blue);
+}
+
+.md-heading {
+    font-weight: 600;
+    font-size: 23px;
+    margin: 0 0 16px 0;
+    display: block;
+}
+
+.md-heading span {
+    font-weight: 200;
+}
+
+.md-desc {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--Grayish-Blue);
+}
+
+.md-cards {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto 3.5em auto;
+    padding: 0;
+    max-width: 111em;
+}
+
+.md-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 25px;
+    padding: 10px 25px 28px 25px;
+    background-color: var(--Very-Light-Gray);
+    color: var(--Very-Dark-Blue);
+    border-radius: 8px;
+    box-shadow: 0 15px 30px -11px rgb(76, 78, 97, .5);
+}
+
+.md-card-header {
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.md-card-text {
+    font-weight: 400;
+    font-size: 11px;
+    color: var(--Grayish-Blue);
+    line-height: 2em;
+    margin: 0;
+}
+
+.md-card-icon {
+    align-self: flex-end;
+    margin-top: 25px;
+    width: 50px;
+    height: 50px;
+}
+
+.md-card-1 {
+    border-top: solid 4px var(--Cyan);
+}
+.md-card-2 {
+    border-top: solid 4px var(--Red);
+}
+.md-card-3 {
+    border-top: solid 4px var(--Orange);
+}
+.md-card-4 {
+    border-top: solid 4px var(--Blue);
+}
+
+
+@media all and (min-width: 768px) {
+
+    .md-header {
+        margin: 6em auto 4em auto;
+    }
+
+    .md-heading {
+        font-size: 36px;
+    }
+
+    .md-desc {
+        font-size: 1em;
+        padding: 0 9em;
+    }
+
+    .md-cards {
+        flex-direction: row;
+        padding: 0 8em;
+    }
+
+    .md-card-flow {
+        flex: 1;
+        margin: 0 .8em;
+    }
+
+    .md-card-1,
+    .md-card-4 {
+        max-height: 11.5em;
+        max-width: 20em;
+        margin-top: 8em;
+    }
+
+    .md-card-2,
+    .md-card-3 {
+        max-height: 11.5em;
+        min-width: 20em;
+    }
+
+    .md-card-header {
+        margin-top: 0;
+        font-size: 20px;
+    }
+
+    .md-card-text {
+        font-size: 14px;
+        padding-right: 8px;
+    }
+}
