@@ -11,3 +11,8 @@ You can preview all the finished challenges bellow:
 
 2. Four Card Feature Section: Preview [Here](https://cank-frontend.netlify.app/four-card-feature-section/)
                              | Source Code [Here](https://github.com/Cank256/Frontend-Mentor-Challenges/tree/master/four-card-feature-section) and Challenge [Here](https://www.frontendmentor.io/challenges/four-card-feature-section-weK1eFYK)
+
+
+## Giving feedback
+
+Feedback is always welcome, so if you have any to give on any of the challenges please email nkunzecaleb[at]gmail[dot]com
