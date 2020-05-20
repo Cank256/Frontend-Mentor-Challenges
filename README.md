@@ -15,4 +15,4 @@ You can preview all the finished challenges bellow:
 
 ## Giving feedback
 
-Feedback is always welcome, so if you have any to give on any of the challenges please email nkunzecaleb[at]gmail[dot]com
+Feedback is always welcome, so if you have any to give on any of the challenges please email nkunzecaleb[at]gmail[dot]com.
